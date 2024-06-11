@@ -10,6 +10,11 @@ pipeline{
 				steps{
 					echo"second branch"
 				}
+			stage("third"){
+				steps{
+					echo"third branch"
+				}
+			}
 		 }
 
 		}
